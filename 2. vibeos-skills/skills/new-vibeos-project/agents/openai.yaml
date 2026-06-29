@@ -1,0 +1,4 @@
+interface:
+  display_name: "New VibeOS Project"
+  short_description: "Scaffold and register a new project"
+  default_prompt: "Use $new-vibeos-project to scaffold and register a new VibeOS project."

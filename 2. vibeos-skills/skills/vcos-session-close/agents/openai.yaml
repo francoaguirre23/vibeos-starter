@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Session Close"
+  short_description: "Capture session learnings"
+  default_prompt: "Use $vcos-session-close to capture decisions and lessons back into the cognitive layer."

@@ -1,0 +1,32 @@
+# --- Generated routing layer (regenerated per machine via scripts/setup_machine.sh) ---
+.claude/
+
+# --- Your projects: local-only, never synced through this framework repo ---
+projects/
+
+# --- Personal identity card (machine-local) ---
+0. vibeos-global/USER.md
+
+# --- Cruft / build / deps ---
+out/
+output/
+outputs/
+tmp/
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# --- Private clean-ship denylist (local only; real names/codenames live here) ---
+scripts/clean_ship_denylist.local
+
+# --- Python cruft ---
+__pycache__/
+*.pyc
+
+# --- OS / editor noise / secrets ---
+.DS_Store
+*.log
+.env
+.env.*

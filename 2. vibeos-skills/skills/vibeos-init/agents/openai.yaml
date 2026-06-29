@@ -1,0 +1,4 @@
+interface:
+  display_name: "VibeOS Init"
+  short_description: "First-run setup wizard"
+  default_prompt: "Use $vibeos-init to set up VibeOS for the first time — interview me, write my identity card, generate starter personas, and scaffold my first project."

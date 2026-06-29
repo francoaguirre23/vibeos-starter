@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Status"
+  short_description: "Compact project status snapshot"
+  default_prompt: "Use $vcos-status to produce a compact current-status overview and the next slice."

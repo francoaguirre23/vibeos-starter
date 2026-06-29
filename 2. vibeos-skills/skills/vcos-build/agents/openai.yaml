@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Build"
+  short_description: "Build Packet to implementation plan"
+  default_prompt: "Use $vcos-build to turn a Build Packet into a small, ordered implementation plan."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "VibeOS Tutorial"
+  short_description: "Guided Day-1 walkthrough"
+  default_prompt: "Use $vibeos-tutorial to walk me through a quick Day-1 lap — make a few small decisions and watch the cognitive layer fill."

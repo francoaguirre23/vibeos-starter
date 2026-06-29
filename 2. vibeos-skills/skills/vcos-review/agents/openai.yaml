@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Review"
+  short_description: "Biweekly maintenance ritual"
+  default_prompt: "Use $vcos-review to run due maintenance and present the review queue for decisions."

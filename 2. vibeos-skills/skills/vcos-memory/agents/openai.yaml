@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Memory"
+  short_description: "Log decisions, promote patterns"
+  default_prompt: "Use $vcos-memory to capture decisions to STANCE and promote patterns to SIGNALS."

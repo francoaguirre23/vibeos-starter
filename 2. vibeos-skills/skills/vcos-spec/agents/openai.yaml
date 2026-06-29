@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Spec"
+  short_description: "Notes to Build Packet draft"
+  default_prompt: "Use $vcos-spec to turn raw notes or a problem statement into a Build Packet draft."

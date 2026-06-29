@@ -1,0 +1,4 @@
+interface:
+  display_name: "VibeOS New Persona"
+  short_description: "Interview and create a persona"
+  default_prompt: "Use $vibeos-new-persona to interview me and create a new standard-conformant persona with its routing wrapper."

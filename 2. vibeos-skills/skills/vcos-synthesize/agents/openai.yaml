@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Synthesize"
+  short_description: "Bubble patterns to the global layer"
+  default_prompt: "Use $vcos-synthesize to find cross-project patterns and propose them to the global layer."

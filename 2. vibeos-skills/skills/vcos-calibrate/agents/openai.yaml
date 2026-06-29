@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Calibrate"
+  short_description: "Update principle confidence tiers"
+  default_prompt: "Use $vcos-calibrate to update MINDSET principle confidence tiers from evidence."

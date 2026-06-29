@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Consolidate"
+  short_description: "Merge and retire stale entries"
+  default_prompt: "Use $vcos-consolidate to merge near-duplicates and retire stale SIGNALS/MINDSET entries."
