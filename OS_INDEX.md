@@ -100,6 +100,7 @@ Kept standards live in `0. vibeos-global/standards/`.
 | `MAINTENANCE_CADENCE.md` | How the cognitive layer compounds and stays sharp over time |
 | `VIBEOS_PROJECT_STANDARD.md` | How a project should be set up and run |
 | `ENGINEERING_DEFAULTS.md` | Default engineering decisions and constraints |
+| `MODEL_TIER_PARITY.md` | Getting a lower-tier model to operate like the top tier (capability elicitation) |
 
 ---
 
