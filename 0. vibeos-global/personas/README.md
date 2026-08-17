@@ -48,6 +48,17 @@ The shipped personas start with empty MINDSET and SIGNALS files — fresh instan
 
 ---
 
+## Persona threads (dedicated @persona sessions)
+
+A dedicated thread with a persona (e.g. `@ada`) is **not** a project — do not scaffold one for it. A persona is a shared lens with its own cognitive layer (`MINDSET.md` + `SIGNALS.md` in its folder). Route what a persona thread produces:
+
+- **Role-craft** (how the persona thinks, a heuristic it applies well, a reversal) → that persona's own `SIGNALS.md`, promotable to its `MINDSET.md` per `PERSONA_STANDARD.md`.
+- **Project decisions** (a call about a specific initiative) → that project's `STANCE.md`.
+
+If the thread is really about an initiative, start a project **named for the work**, not the persona. `/vcos-memory` and `/vcos-session-close` apply this routing when run in a persona thread.
+
+---
+
 ## Adding Your Own Persona
 
 Run `/vibeos-new-persona` to scaffold a new specialist. It creates the numbered folder, the four files, and a routing wrapper following the standard. Then fill in `PERSONA.md` with the role's lens and lane, and let its MINDSET and SIGNALS grow as you work.

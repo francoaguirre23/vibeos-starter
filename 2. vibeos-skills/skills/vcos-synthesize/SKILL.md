@@ -18,6 +18,13 @@ Without this, lessons stay siloed in the project or persona where they were lear
 - When `/vcos-session-close` reports synthesis is due
 - Any time you suspect a lesson is no longer project-specific
 
+## Cost discipline (run this cheaply)
+
+This is a large, mostly-mechanical pass (collect, cluster, dedup) with a thin judgment layer. Keep it cheap:
+- **Model tier.** Run on a mid or high tier, not the top tier. Apply the `MODEL_TIER_PARITY` operating block for quality.
+- **Skip when nothing changed.** If no MINDSET has changed since the last synthesis, stop and report "nothing new" rather than re-clustering the whole corpus.
+- **Consolidate first if bloated.** If `GLOBAL_SIGNALS` is over its size ceiling, run `/vcos-consolidate` before synthesizing.
+
 ## Context Requirement
 
 **Confidentiality gate (read first):** read the classification registry in `projects/INDEX.md` and `standards/CONFIDENTIALITY.md`. **Exclude from the synthesis corpus any project classified Confidential, NDA, or unclassified** (fail-closed). Never name an NDA project in GLOBAL_SIGNALS, GLOBAL_MINDSET, or the ledger — use a neutral handle. Only Internal and Public projects feed synthesis.

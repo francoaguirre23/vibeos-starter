@@ -19,6 +19,13 @@ Before performing this workflow:
 - Current STANCE, SIGNALS, and MINDSET contents
 - The rule files for each memory layer
 
+## Cost discipline (run this cheaply)
+
+- **Model tier.** Run on a mid or high tier, not the top tier — capture and promotion are light. Apply the `MODEL_TIER_PARITY` operating block.
+- **Fresh, small context.** Run this in its own short session (or early), not at the tail of a long working thread, or the whole accumulated context gets re-billed. Capture from a brief recap of the decisions, not the full transcript.
+- **Scope to the active project.** Read only the relevant project's STANCE/SIGNALS/MINDSET, not the whole workspace.
+- **Don't double-run.** `/vcos-session-close` already performs this capture. Run one or the other, not both.
+
 ## Process
 1. Append only to STANCE for high-signal project events.
 2. Promote recurring patterns into SIGNALS when they generalize.
