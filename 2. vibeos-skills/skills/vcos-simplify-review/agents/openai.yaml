@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Simplify Review"
+  short_description: "Delete / shrink / reuse review"
+  default_prompt: "Use $vcos-simplify-review to review this diff, file, or project slice for unnecessary complexity and produce a delete/shrink/reuse list."

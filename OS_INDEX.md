@@ -39,8 +39,10 @@ Invoke with `/skill-name`.
 | `/vcos-spec` | Frame a problem into a plan |
 | `/vcos-build` | Turn a plan into ordered steps |
 | `/vcos-memory` | Capture decisions and patterns into the cognitive layer |
+| `/vcos-meeting-context` | Load a meeting transcript (Granola, Fathom, Zoom…) as framed context — calibrates who-said-what to the source |
 | `/vcos-session-close` | **The one ritual to keep** — end-of-session capture into memory |
 | `/vcos-status` | A compact snapshot of where a project stands |
+| `/vcos-retro` | Close-out ritual — a short retro plus distilling SIGNALS into a MINDSET |
 
 ### Advanced — later, once you have a few projects
 Keep the memory sharp instead of just big. Not needed on Day 1.
@@ -50,6 +52,7 @@ Keep the memory sharp instead of just big. Not needed on Day 1.
 | `/vcos-calibrate` | Mark how confident the team is in each principle, from real evidence |
 | `/vcos-synthesize` | Promote lessons that recur across projects to the global layer |
 | `/vcos-consolidate` | Merge near-duplicates and retire stale entries (archived, not deleted) |
+| `/vcos-simplify-review` | Review a diff, file, or slice for unnecessary complexity — a delete/shrink/reuse list (Robin) |
 
 ---
 

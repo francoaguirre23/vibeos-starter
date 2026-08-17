@@ -38,4 +38,10 @@ for sub in agents commands; do
   done
 done
 
+# Stamp the hooks settings template (SessionStart status + Stop session-close nudge), if present.
+if [ -f "$SRC/settings.template.json" ]; then
+  sed "s|{{VIBEOS_ROOT}}|$ROOT|g" "$SRC/settings.template.json" > "$DEST/settings.json"
+  echo "Wrote .claude/settings.json (session hooks)."
+fi
+
 echo "Done. Wrote $count routing files into .claude/"

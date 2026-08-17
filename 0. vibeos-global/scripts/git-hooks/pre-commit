@@ -1,0 +1,35 @@
+#!/bin/bash
+# VibeOS pre-commit gate (OPT-IN, warn-first). Not active by default — turn it on with:
+#   git config core.hooksPath "0. vibeos-global/scripts/git-hooks"
+#
+# It runs the workspace validator and PRINTS any framework drift (e.g. .claude/ out of sync
+# with routing/ — fix with scripts/setup_machine.sh). It does NOT block your commit: this is
+# your private workspace and you're allowed to commit work in progress.
+#
+# The publish gate is separate: run scripts/clean_ship_check.sh before pushing anything public.
+
+set -u
+cd "$(git rev-parse --show-toplevel)" || exit 0
+
+echo "VibeOS pre-commit (warn-first)"
+
+python3 "0. vibeos-global/scripts/validate_vibeos_workspace.py" --json 2>/dev/null | python3 -c "
+import json, sys
+try:
+    reports = json.load(sys.stdin)
+except Exception:
+    print('  note: validator did not produce output — skipping'); sys.exit(0)
+fw = next((r for r in reports if r.get('project') == 'VibeOS Framework'), None)
+if fw is None:
+    print('  note: no framework report — skipping'); sys.exit(0)
+crit = [f for f in fw['findings'] if f.get('critical')]
+if crit:
+    print('  warning: framework drift detected (not blocking):')
+    for f in crit:
+        print(f\"    - [{f['check']}] {f['message']}\")
+    print('  fix with: bash scripts/setup_machine.sh')
+else:
+    print('  ok: framework clean')
+"
+
+exit 0

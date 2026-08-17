@@ -22,11 +22,13 @@ One place to see every shipped skill: who owns it, when it should fire, and whet
 | `/vcos-build` | Sam | a plan needs turning into small, ordered steps | auto |
 | `/vcos-status` | Ada | you need a compact snapshot of where a project stands | auto |
 | `/vcos-memory` | Sam, Robin | logging decisions to STANCE and promoting recurring patterns to SIGNALS | confirm |
+| `/vcos-meeting-context` | you | bringing a meeting transcript into a session as framed context; calibrates attribution to the source | you invoke |
 
 ## Keeping the memory alive (you — on cadence)
 | Skill | When |
 |-------|------|
 | `/vcos-session-close` | **end of every work session — the one ritual to keep.** Captures decisions and lessons back into the cognitive layer |
+| `/vcos-retro` | at a project's close or a milestone — a short structured retro, then distills the project's SIGNALS into a MINDSET with a calibration table |
 
 ## Advanced — later
 Once you have a few projects, these keep the memory sharp instead of just big. Skip them on Day 1.
@@ -36,6 +38,7 @@ Once you have a few projects, these keep the memory sharp instead of just big. S
 | `/vcos-calibrate` | inside review — mark each principle's confidence from real evidence |
 | `/vcos-synthesize` | inside review — promote patterns that recur across projects to the global layer |
 | `/vcos-consolidate` | inside review — merge near-duplicates and retire stale entries (archived, not deleted) |
+| `/vcos-simplify-review` | Robin's lane — review a diff, file, or project slice for unnecessary complexity and produce a delete/shrink/reuse list (analysis only; no edits without asking) |
 
 ## Notes
 - **Tool-agnostic:** in Claude Code, Codex, and Cursor these are slash commands; in a plain chat tool the teammate performs the same workflow inline from its starter prompt.

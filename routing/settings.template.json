@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"{{VIBEOS_ROOT}}/0. vibeos-global/scripts/session_start_status.sh\"",
+            "timeout": 15,
+            "statusMessage": "Loading VibeOS status"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"{{VIBEOS_ROOT}}\" && if [ -n \"$(git status --porcelain 2>/dev/null)\" ]; then f=\"{{VIBEOS_ROOT}}/.git/vibeos-nudge-ts\"; now=$(date +%s); last=$(cat \"$f\" 2>/dev/null || echo 0); if [ $((now-last)) -gt 3600 ]; then echo \"$now\" > \"$f\"; echo '{\"systemMessage\":\"VibeOS: you have uncommitted changes. When you wrap up, run /vcos-session-close so the team captures what it learned.\"}'; fi; fi; exit 0",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

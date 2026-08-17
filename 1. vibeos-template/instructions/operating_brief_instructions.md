@@ -2,9 +2,9 @@
 
 ## Purpose
 Guide the creation or update of an Operating Brief — the canonical planning artifact for
-Eng Ops projects (org transitions, process redesigns, executive analyses, strategic
-initiatives, operating-model work). It is to Eng Ops work what the Build Packet is to
-software: the place the problem, the decision, and the rollout get framed.
+decision, planning, and process work (plans, analyses, process changes, strategy — anything
+where the deliverable is a decision or a document, not software). It is to that kind of work
+what the Build Packet is to software: the place the problem, the decision, and the rollout get framed.
 
 ## Use This When
 - the project's deliverable is a decision, framework, analysis, or operating change — not a tool

@@ -16,6 +16,8 @@ By the end of your first sitting you will have: talked to your Chief of Staff, f
 
 That's it. You're ready to work.
 
+New to repos, or setting this up straight from Claude Code? See **[START_IN_CLAUDE_CODE.md](START_IN_CLAUDE_CODE.md)** for the click-by-click version.
+
 ## Your starter team
 
 Three teammates ship with the kit. You always start with Ada.

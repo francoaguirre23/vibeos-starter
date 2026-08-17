@@ -25,7 +25,7 @@ Follow the project's own instruction file, which is the source of truth for form
 
 Read these inputs:
 - `docs/project_context.md`
-- the canonical planning artifact: `docs/operating_brief.md` (Eng Ops) or `docs/build_packet.md` (Build)
+- the canonical planning artifact: `docs/operating_brief.md` (decision/process) or `docs/build_packet.md` (software)
 - for Build projects, any files in `docs/build_packets/` and `docs/build_packet_index.md` if they exist
 - `project cognitive layer/STANCE.md`, `SIGNALS.md`, `MINDSET.md`
 - relevant TDD / security docs if they materially affect the next slice

@@ -6,7 +6,7 @@
 - Keep ≤100 lines
 - Keep only high-signal context
 - Any newly invoked persona should read this file, the canonical planning artifact
-  (`docs/operating_brief.md` for Eng Ops or `docs/build_packet.md` for Build),
+  (`docs/operating_brief.md` for decision/process work or `docs/build_packet.md` for software),
   `project cognitive layer/STANCE.md`, `project cognitive layer/SIGNALS.md`,
   and `project cognitive layer/MINDSET.md` before doing substantive work
 
@@ -38,7 +38,7 @@
 - <open question 2>
 
 ## Links
-- Canonical planning artifact: docs/operating_brief.md (Eng Ops) or docs/build_packet.md (Build)
+- Canonical planning artifact: docs/operating_brief.md (decision/process) or docs/build_packet.md (software)
 - Stance: project cognitive layer/STANCE.md
 - Signals: project cognitive layer/SIGNALS.md
 - Mindset: project cognitive layer/MINDSET.md

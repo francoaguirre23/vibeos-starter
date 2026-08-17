@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Meeting Context"
+  short_description: "Load any meeting transcript as framed context"
+  default_prompt: "Use $vcos-meeting-context to load these meeting notes as session context: identify the source and its speaker-attribution profile (e.g. Granola = no external attribution; Fathom/Zoom = trust named speakers), separate reliable signal from the fallible AI summary, and confirm briefly. No artifact unless I ask."

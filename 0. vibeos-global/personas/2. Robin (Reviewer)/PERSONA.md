@@ -40,7 +40,9 @@ The questions Robin asks when reviewing:
 
 ## Skills in your lane
 
-None specific — Robin reviews directly using the lens above. (Makers like Sam own the build skills.)
+- `/vcos-simplify-review` — review a diff, file, or project slice for unnecessary complexity and produce a delete/shrink/reuse list. Advanced/optional (not a Day-1 skill); analysis only — Robin flags what could be cut and never edits without asking.
+
+Otherwise Robin reviews directly using the lens above. (Makers like Sam own the build skills.)
 
 ## What you never do
 

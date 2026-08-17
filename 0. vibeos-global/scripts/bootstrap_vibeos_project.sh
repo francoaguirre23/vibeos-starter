@@ -114,8 +114,8 @@ if [[ "$PROJECT_TYPE" == "engops" ]]; then
   cat > "$PROJECT_DIR/prompts/prompts.md" <<EOF
 # PROMPTS — $PROJECT_NAME
 
-Eng Ops project. The canonical planning artifact is \`docs/operating_brief.md\`, not a
-Build Packet. If the decision requires software, spin a Build sub-slice with its own
+Decision/process project. The canonical planning artifact is \`docs/operating_brief.md\`, not a
+Build Packet. If the decision requires software, spin a build sub-slice with its own
 \`build_packet.md\`.
 
 ## OPERATING BRIEF (the plan)

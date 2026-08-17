@@ -117,7 +117,10 @@ The full ownership map lives in `0. vibeos-global/SKILLS_CHEATSHEET.md`.
 | `vcos-memory` | Memory & quality |
 | `vcos-session-close` | Memory & quality |
 | `vcos-status` | Analysis |
+| `vcos-meeting-context` | Context intake — load a notetaker transcript as framed session context |
+| `vcos-retro` | Memory & quality (close-out ritual) |
 | `vcos-review` | Compounding (cognitive layer maintenance) — advanced |
 | `vcos-calibrate` | Compounding (cognitive layer maintenance) — advanced |
 | `vcos-synthesize` | Compounding (cognitive layer maintenance) — advanced |
 | `vcos-consolidate` | Compounding (cognitive layer maintenance) — advanced |
+| `vcos-simplify-review` | Review (Robin) — advanced |

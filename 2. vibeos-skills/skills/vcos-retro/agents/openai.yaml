@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Retro"
+  short_description: "Close-out retro + distill MINDSET"
+  default_prompt: "Use $vcos-retro to run a short structured retro at this project's close and distill its SIGNALS into a MINDSET with a calibration table."

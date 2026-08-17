@@ -283,7 +283,7 @@ def evaluate_project(workspace: Path, project_dir: Path) -> ProjectReport:
                 findings,
                 "WARN",
                 "engops_operating_brief_missing",
-                f"Eng Ops project still uses transitional docs/build_packet.md; add {ENGOPS_CANONICAL_DOC} on next substantive touch",
+                f"Decision/process project still uses transitional docs/build_packet.md; add {ENGOPS_CANONICAL_DOC} on next substantive touch",
             )
     else:
         for rel_path in BUILD_REQUIRED_DOCS:
