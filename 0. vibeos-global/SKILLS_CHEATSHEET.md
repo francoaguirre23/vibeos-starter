@@ -27,6 +27,7 @@ One place to see every shipped skill: who owns it, when it should fire, and whet
 ## Keeping the memory alive (you — on cadence)
 | Skill | When |
 |-------|------|
+| `/vcos-session-start` | start of a work session on an existing project — rehydrate its durable state into a compact orientation; pairs with `/vcos-session-close` |
 | `/vcos-session-close` | **end of every work session — the one ritual to keep.** Captures decisions and lessons back into the cognitive layer |
 | `/vcos-retro` | at a project's close or a milestone — a short structured retro, then distills the project's SIGNALS into a MINDSET with a calibration table |
 

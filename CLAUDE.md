@@ -43,6 +43,7 @@ Type `/` to see them. Not sure which to reach for? See `0. vibeos-global/SKILLS_
 | `/vcos-build` | Turn a plan into ordered steps |
 | `/vcos-memory` | Capture decisions and patterns into the cognitive layer |
 | `/vcos-meeting-context` | Load a meeting transcript (Granola, Fathom, Zoom…) as framed context — calibrates who-said-what to the source |
+| `/vcos-session-start` | Pick up an existing project in a fresh thread — rehydrate its memory into a compact orientation (pairs with `/vcos-session-close`) |
 | `/vcos-session-close` | **The one ritual to keep** — end-of-session capture into memory |
 | `/vcos-status` | A compact snapshot of where a project stands |
 | `/vcos-retro` | Close-out ritual — a short retro plus distilling SIGNALS into a MINDSET |

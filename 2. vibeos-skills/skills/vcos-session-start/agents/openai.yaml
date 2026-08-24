@@ -1,0 +1,4 @@
+interface:
+  display_name: "VCOS Session Start"
+  short_description: "Rehydrate an existing project into a fresh thread"
+  default_prompt: "Use $vcos-session-start to pick up an existing VibeOS project in a fresh thread: read its project_context + STANCE/SIGNALS/MINDSET, produce a compact orientation (phase, where it stands, open loops, governing principles, one next slice), then hand off to /vcos-status. Do not scaffold a new project and do not edit the cognitive layer."
